@@ -1,0 +1,20 @@
+2024-07-10T15:06:08.315+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:08:22.822+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:08:52.766+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:14:09.114+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:14:52.778+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:14:57.429+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:15:43.455+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:15:48.072+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:15:54.288+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:16:12.939+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:16:20.598+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:18:25.943+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:21:11.766+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:21:16.359+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:24:13.817+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:24:16.832+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:25:29.389+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T15:27:18.771+0800	ERROR	initialize/mysql.go:20	[mysql] 初始化失败：dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2024-07-10T15:27:38.995+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功
+2024-07-10T16:50:00.482+0800	INFO	user_srv/main.go:127	[grpc] 服务注销成功

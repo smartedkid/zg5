@@ -1,0 +1,7 @@
+Host: "127.0.0.1"
+Port: 8848
+User: "nacos"
+Password: "nacos"
+Namespace: "1db14bb8-1131-47ac-b477-a392b7682adb"
+DataId: "test_srv"
+Group: "dev"

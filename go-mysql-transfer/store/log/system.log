@@ -1,0 +1,55 @@
+[2023/07/22 21:47:31] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:14:35] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:16:09] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:19:53] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:20:15] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:20:41] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:24:18] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:27:00] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 22:27:12] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 127.0.0.1 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:36:23] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:36:33] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:36:33] [info] canal.go:241 closing canal
+[2023/07/22 23:36:33] [info] binlogsyncer.go:176 syncer is closing...
+[2023/07/22 23:36:33] [info] binlogsyncer.go:203 syncer is closed
+[2023/07/22 23:38:33] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:38:33] [info] canal.go:241 closing canal
+[2023/07/22 23:38:33] [info] binlogsyncer.go:176 syncer is closing...
+[2023/07/22 23:38:33] [info] binlogsyncer.go:203 syncer is closed
+[2023/07/22 23:40:04] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:40:04] [info] canal.go:241 closing canal
+[2023/07/22 23:40:04] [info] binlogsyncer.go:176 syncer is closing...
+[2023/07/22 23:40:04] [info] binlogsyncer.go:203 syncer is closed
+[2023/07/22 23:44:39] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:44:39] [info] canal.go:241 closing canal
+[2023/07/22 23:44:39] [info] binlogsyncer.go:176 syncer is closing...
+[2023/07/22 23:44:39] [info] binlogsyncer.go:203 syncer is closed
+[2023/07/22 23:46:07] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+[2023/07/22 23:46:07] [info] canal.go:241 closing canal
+[2023/07/22 23:46:07] [info] binlogsyncer.go:176 syncer is closing...
+[2023/07/22 23:46:07] [info] binlogsyncer.go:203 syncer is closed
+[2023/07/22 23:59:38] [info] binlogsyncer.go:144 create BinlogSyncer with config {1001 mysql 192.168.43.44 3306 root   utf8 false false <nil> false UTC false 0 0s 0s 0 false false 0}
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 200,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 800,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 700,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1600,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 2100,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 900,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 2200,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1900,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1800,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 100,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 500,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 400,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 2300,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 600,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 0,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 300,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1100,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1300,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1200,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1400,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1500,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1700,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 2000,100) a left join mxshop_goods_srv.goods b on a.id=b.id
+2023-07-22 23:59:38	info	export sql : select b.* from (select id from mxshop_goods_srv.goods order by id limit 1000,100) a left join mxshop_goods_srv.goods b on a.id=b.id

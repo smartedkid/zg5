@@ -1,0 +1,114 @@
+syntax = "proto3";
+
+option go_package ="./";
+
+package products;
+
+// ------------------------------------ 
+// Messages
+// ------------------------------------ 
+
+//--------------------------------user--------------------------------
+message User {
+  int64 id = 1; //鐢ㄦ埛id
+  string username = 2; //鐢ㄦ埛鍚嶇О
+  string mobile = 3; //鐢ㄦ埛鎵嬫満
+  int64 sex = 4; //鎬у埆
+  int64 age = 5; //骞寸邯
+  string address = 6; //鍦板潃
+  int64 createdAt = 7; //娉ㄥ唽鏃堕棿
+  int64 updatedAt = 8; //淇敼鏃堕棿
+  int64 deletedAt = 9; //鍒犻櫎鏃堕棿
+}
+
+message AddUserReq {
+  string username = 1; //鐢ㄦ埛鍚嶇О
+  string mobile = 2; //鐢ㄦ埛鎵嬫満
+  int64 sex = 3; //鎬у埆
+  int64 age = 4; //骞寸邯
+  string address = 5; //鍦板潃
+  int64 createdAt = 6; //娉ㄥ唽鏃堕棿
+  int64 updatedAt = 7; //淇敼鏃堕棿
+  int64 deletedAt = 8; //鍒犻櫎鏃堕棿
+}
+
+message AddUserResp {
+  bool success=1;
+}
+
+message UpdateUserReq {
+  int64 id = 1; //鐢ㄦ埛id
+  string username = 2; //鐢ㄦ埛鍚嶇О
+  string mobile = 3; //鐢ㄦ埛鎵嬫満
+  int64 sex = 4; //鎬у埆
+  int64 age = 5; //骞寸邯
+  string address = 6; //鍦板潃
+  int64 createdAt = 7; //娉ㄥ唽鏃堕棿
+  int64 updatedAt = 8; //淇敼鏃堕棿
+  int64 deletedAt = 9; //鍒犻櫎鏃堕棿
+}
+
+message UpdateUserResp {
+  bool success=1;
+}
+
+message DelUserReq {
+  int64 id = 1; //id
+}
+
+message DelUserResp {
+  bool success=1;
+}
+
+message GetUserByIdReq {
+  int64 id = 1; //id
+}
+
+message GetUserByIdResp {
+  int64 id = 1; //鐢ㄦ埛id
+  string username = 2; //鐢ㄦ埛鍚嶇О
+  string mobile = 3; //鐢ㄦ埛鎵嬫満
+  int64 sex = 4; //鎬у埆
+  int64 age = 5; //骞寸邯
+  string address = 6; //鍦板潃
+  int64 createdAt = 7; //娉ㄥ唽鏃堕棿
+  int64 updatedAt = 8; //淇敼鏃堕棿
+  int64 deletedAt = 9; //鍒犻櫎鏃堕棿
+}
+message AllUser{
+  int64 id = 1; //鐢ㄦ埛id
+  string username = 2; //鐢ㄦ埛鍚嶇О
+  string mobile = 3; //鐢ㄦ埛鎵嬫満
+  int64 sex = 4; //鎬у埆
+  int64 age = 5; //骞寸邯
+  string address = 6; //鍦板潃
+  int64 createdAt = 7; //娉ㄥ唽鏃堕棿
+  int64 updatedAt = 8; //淇敼鏃堕棿
+  int64 deletedAt = 9; //鍒犻櫎鏃堕棿
+  string userimage=10;
+}
+
+message UserAllMessageReq{
+
+}
+message UserAllMessageResp{
+repeated  AllUser alluser=1;
+
+}
+
+
+// ------------------------------------ 
+// Rpc Func
+// ------------------------------------ 
+
+service user{ 
+
+	 //-----------------------user----------------------- 
+	 rpc AddUser(AddUserReq) returns (AddUserResp); 
+	 rpc UpdateUser(UpdateUserReq) returns (UpdateUserResp); 
+	 rpc DelUser(DelUserReq) returns (DelUserResp); 
+	 rpc GetUserById(GetUserByIdReq) returns (GetUserByIdResp); 
+	 rpc AllUser(UserAllMessageReq) returns (UserAllMessageResp);
+
+
+}
